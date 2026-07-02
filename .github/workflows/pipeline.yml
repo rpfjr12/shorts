@@ -2,7 +2,7 @@ name: shorts-pipeline
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # daily at 3AM
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -29,10 +29,7 @@ jobs:
 
       - name: Generate 20 shorts
         run: |
-          for i in {1..20}
-          do
-            python main.py
-          done
+          python main.py run --format psychology --count 20 --palette neon_blue_purple
 
       - name: Upload results
         uses: actions/upload-artifact@v4
