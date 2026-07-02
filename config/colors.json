@@ -1,0 +1,47 @@
+{
+  "neon_blue_purple": {
+    "background": "#0A0221",
+    "text_primary": "#FFFFFF",
+    "text_accent": "#B388FF",
+    "outline": "#1B0A3D",
+    "highlight": "#00E5FF",
+    "grade_saturation": 1.15,
+    "grade_contrast": 1.1
+  },
+  "black_white_red": {
+    "background": "#000000",
+    "text_primary": "#FFFFFF",
+    "text_accent": "#FF1E1E",
+    "outline": "#000000",
+    "highlight": "#FF1E1E",
+    "grade_saturation": 0.85,
+    "grade_contrast": 1.25
+  },
+  "gold_black": {
+    "background": "#0D0D0D",
+    "text_primary": "#F5D67B",
+    "text_accent": "#FFFFFF",
+    "outline": "#000000",
+    "highlight": "#F5D67B",
+    "grade_saturation": 1.0,
+    "grade_contrast": 1.15
+  },
+  "teal_orange": {
+    "background": "#0B2E31",
+    "text_primary": "#FFFFFF",
+    "text_accent": "#FF8A3D",
+    "outline": "#052022",
+    "highlight": "#3DDCB0",
+    "grade_saturation": 1.2,
+    "grade_contrast": 1.05
+  },
+  "pastel_gradient": {
+    "background": "#F4E9F7",
+    "text_primary": "#3A2E3F",
+    "text_accent": "#F49AC2",
+    "outline": "#FFFFFF",
+    "highlight": "#A7C7E7",
+    "grade_saturation": 0.9,
+    "grade_contrast": 0.95
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "backend": "automatic1111",
+  "automatic1111": {
+    "api_url": "http://127.0.0.1:7860",
+    "endpoint": "/sdapi/v1/txt2img",
+    "model_checkpoint": "",
+    "sampler_name": "DPM++ 2M Karras",
+    "steps": 22,
+    "cfg_scale": 6.5,
+    "width": 768,
+    "height": 1344
+  },
+  "fallback_placeholder": {
+    "enabled": true,
+    "note": "Used automatically if no local Stable Diffusion server is reachable, so the pipeline still runs end-to-end for free."
+  },
+  "style_presets": {
+    "cinematic_neon": {
+      "base_prompt": "cinematic digital illustration, neon lighting, dramatic atmosphere, ultra detailed, vertical composition, 9:16",
+      "negative_prompt": "blurry, low quality, watermark, text, logo, deformed, extra limbs",
+      "style_keywords": ["neon glow", "cinematic lighting", "high contrast", "moody", "volumetric light"]
+    },
+    "dark_high_contrast": {
+      "base_prompt": "dramatic black and white illustration with sharp red accent, high contrast, vertical composition, 9:16",
+      "negative_prompt": "blurry, low quality, watermark, text, logo, washed out colors",
+      "style_keywords": ["chiaroscuro", "sharp shadows", "bold contrast", "graphic novel style"]
+    },
+    "soft_gradient": {
+      "base_prompt": "soft pastel gradient illustration, dreamy atmosphere, gentle lighting, vertical composition, 9:16",
+      "negative_prompt": "blurry, low quality, watermark, text, logo, harsh contrast",
+      "style_keywords": ["pastel", "dreamy", "soft focus", "gentle gradient"]
+    },
+    "gold_luxury": {
+      "base_prompt": "luxurious illustration with gold and black tones, elegant composition, vertical, 9:16",
+      "negative_prompt": "blurry, low quality, watermark, text, logo, cluttered",
+      "style_keywords": ["gold foil", "luxury", "elegant", "minimal"]
+    }
+  },
+  "default_style": "cinematic_neon"
+}

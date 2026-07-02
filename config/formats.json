@@ -1,0 +1,135 @@
+{
+  "finance": {
+    "display_name": "Finance Facts",
+    "hook_patterns": [
+      "You've been doing {topic} wrong your whole life.",
+      "The banks don't want you to know this about {topic}.",
+      "This {topic} trick could save you thousands.",
+      "Nobody talks about this {topic} secret."
+    ],
+    "body_patterns": [
+      "Here's the truth: {fact_1}",
+      "Most people think {misconception}, but actually {fact_1}",
+      "Studies show that {fact_1}",
+      "The real reason is {fact_1}"
+    ],
+    "body_patterns_2": [
+      "And here's the part that changes everything: {fact_2}",
+      "But it gets better — {fact_2}",
+      "On top of that, {fact_2}"
+    ],
+    "twist_patterns": [
+      "So next time, remember: {takeaway}",
+      "Do this and you'll never look at money the same way.",
+      "Follow for more money secrets they never taught you in school."
+    ],
+    "topics": [
+      "compound interest", "credit scores", "index funds", "budgeting",
+      "emergency funds", "debt payoff", "tax deductions", "side hustles"
+    ]
+  },
+  "psychology": {
+    "display_name": "Psychology Facts",
+    "hook_patterns": [
+      "Your brain does this without you even noticing.",
+      "This is why you always {behavior}.",
+      "Psychologists discovered something wild about {topic}.",
+      "The reason you {behavior} might surprise you."
+    ],
+    "body_patterns": [
+      "It's called {fact_1}",
+      "Your mind does this because {fact_1}",
+      "Research shows {fact_1}",
+      "This happens because {fact_1}"
+    ],
+    "body_patterns_2": [
+      "Even more interesting — {fact_2}",
+      "This is also why {fact_2}",
+      "And it explains {fact_2}"
+    ],
+    "twist_patterns": [
+      "Now that you know this, you'll notice it everywhere.",
+      "Use this to your advantage starting today.",
+      "Save this before your brain tricks you again."
+    ],
+    "topics": [
+      "procrastination", "first impressions", "memory", "habits",
+      "overthinking", "social anxiety", "decision fatigue", "motivation"
+    ],
+    "behaviors": [
+      "procrastinate", "overthink small decisions", "remember bad days more than good ones",
+      "get anxious in silence", "compare yourself to others"
+    ]
+  },
+  "history": {
+    "display_name": "History Facts",
+    "hook_patterns": [
+      "This event changed history and almost nobody knows about it.",
+      "In {year}, something happened that changed everything.",
+      "History textbooks leave this part out.",
+      "This is the wildest thing that happened in {year}."
+    ],
+    "body_patterns": [
+      "{fact_1}",
+      "What actually happened was {fact_1}",
+      "Historians confirm that {fact_1}"
+    ],
+    "body_patterns_2": [
+      "But here's the twist — {fact_2}",
+      "What most people don't know is {fact_2}",
+      "It gets even crazier: {fact_2}"
+    ],
+    "twist_patterns": [
+      "History really does repeat itself.",
+      "Follow for more history they don't teach in school.",
+      "Save this for your next trivia night."
+    ],
+    "years": ["1969", "1929", "1912", "1804", "1945", "1889", "1963"]
+  },
+  "motivation": {
+    "display_name": "Motivation Quotes",
+    "hook_patterns": [
+      "If you're struggling right now, watch this.",
+      "This will change how you see failure.",
+      "Nobody tells you this about success.",
+      "Read this if you want to quit."
+    ],
+    "body_patterns": [
+      "{fact_1}",
+      "The truth is, {fact_1}",
+      "Every successful person knows {fact_1}"
+    ],
+    "body_patterns_2": [
+      "{fact_2}",
+      "And more importantly, {fact_2}"
+    ],
+    "twist_patterns": [
+      "Keep going. You're closer than you think.",
+      "Save this for the days you want to give up.",
+      "Share this with someone who needs it today."
+    ]
+  },
+  "ai_stories": {
+    "display_name": "AI Mini-Stories",
+    "hook_patterns": [
+      "In a world run by machines, one AI remembered what it meant to be human.",
+      "The last human city had one rule: never trust the signal.",
+      "Nobody knew the AI had been dreaming.",
+      "The robot found something buried under the old city."
+    ],
+    "body_patterns": [
+      "{fact_1}",
+      "It had learned to {fact_1}",
+      "Deep in its code, it discovered {fact_1}"
+    ],
+    "body_patterns_2": [
+      "{fact_2}",
+      "And that changed everything, because {fact_2}"
+    ],
+    "twist_patterns": [
+      "Maybe it was never just a machine.",
+      "Part 2 coming soon...",
+      "Follow to see what happens next."
+    ]
+  }
+}
