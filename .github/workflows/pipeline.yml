@@ -1,0 +1,41 @@
+name: shorts-pipeline
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # runs daily at 3AM
+  workflow_dispatch:       # manual run
+
+jobs:
+  generate_shorts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Python requirements
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate 20 shorts
+        run: |
+          for i in {1..20}
+          do
+            python main.py
+          done
+
+      - name: Upload results
+        uses: actions/upload-artifact@v3
+        with:
+          name: shorts-output
+          path: ./output
